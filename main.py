@@ -1468,4 +1468,5 @@ if __name__ == '__main__':
     block_two_side = ImageTk.PhotoImage(Image.open("Images/2_block.png").resize((33, 33), Image.ANTIALIAS))
     block_one_side = ImageTk.PhotoImage(Image.open("Images/1_block.png").resize((33, 33), Image.ANTIALIAS))
     Ludo(window,block_six_side,block_five_side,block_four_side,block_three_side,block_two_side,block_one_side)
+
     window.mainloop()
